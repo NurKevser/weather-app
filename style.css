@@ -1,4 +1,36 @@
+body{
+    background-image: url(pexels-cliford-mervil-2469122.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
 .container{
     margin:50px auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+}
+
+input {
+    padding: 10px 30px;
+    border-radius: 5px;
+    opacity: 0.8;
+    
+}
+button{
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    border: none;
+    padding: 12px;
+    opacity: 0.8;
+}
+
+#city, p, #temp, #des{
+    color: #ffff;
+    font-size: 25px;
 }
